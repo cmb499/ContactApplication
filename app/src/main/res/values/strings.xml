@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ContactAssignment</string>
+
+    <string-array name="titles">
+        <item> Title 1</item>
+        <item> Title 2</item>
+        <item> Title 3</item>
+        <item> Title 4</item>
+    </string-array>
+
+    <string-array name="description">
+        <item> Description 1</item>
+        <item> Description 2</item>
+        <item> Description 3</item>
+        <item> Description 4</item>
+    </string-array>
+    <string name="title_activity_contact_details">ContactDetailsActivity</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fae596">
+
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/name"
+        android:text="Name :"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        />
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/nameDesc"
+        android:text="text"
+        android:layout_toRightOf="@+id/name"
+        android:paddingLeft="15dp"
+        />
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/phone"
+        android:text="Phone :"
+        android:gravity="left"
+        android:layout_below="@+id/nameDesc"
+        android:paddingLeft="15dp"
+        />
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/phoneDesc"
+        android:text="Phone number"
+        android:layout_toRightOf="@+id/phone"
+        android:layout_below="@+id/nameDesc"
+        android:paddingLeft="15dp"
+        />
+
+
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/rel"
+        android:text="Relationship :"
+        android:gravity="left"
+        android:layout_below="@+id/phone"
+        android:paddingLeft="15dp"
+        />
+
+    <ListView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relationListProfile"
+        android:layout_below="@+id/rel"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:background="#3fb0ac"
+        >
+
+
+    </ListView>
+
+</RelativeLayout>

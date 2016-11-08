@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fae596">
+
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/name"
+        android:text="Name : "
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        />
+
+    <EditText
+        android:paddingTop="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/nameEdit"
+        android:hint="Enter Name "
+        android:layout_toRightOf="@+id/name"
+        android:paddingLeft="15dp"
+        android:background="#FFF"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/phone"
+        android:text="Phone :"
+        android:gravity="left"
+        android:layout_below="@+id/nameEdit"
+        android:paddingLeft="15dp"
+        />
+
+    <EditText
+        android:paddingTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/phoneEdit"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/phone"
+        android:layout_below="@+id/nameEdit"
+        android:paddingLeft="15dp"
+        android:background="#FFF"
+        />
+
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/rel"
+        android:text="Relationship :"
+        android:gravity="left"
+        android:layout_below="@+id/phone"
+        android:paddingLeft="15dp"
+        />
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="ADD PERSON"
+        android:id="@+id/addEdit"
+        android:layout_gravity="right"
+        android:textColor="#FFF"
+        android:background="#30415D"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relationListDetails"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel"
+        android:paddingTop="15px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#3fb0ac"
+        android:choiceMode="multipleChoice"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_above="@+id/addEdit" />
+
+
+</RelativeLayout>
